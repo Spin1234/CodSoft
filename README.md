@@ -14,5 +14,5 @@ Functionality: User registration, login and authentication, logout, search train
 
 I have hosted my website in "https://profreehost.com/"
 
-Hosted Link: http://travelbookingsystem.ezyro.com/
-Github Link: https://github.com/Spin1234/CodSoft/tree/main/Task%202
+### Hosted Link: http://travelbookingsystem.ezyro.com/
+### Github Link: https://github.com/Spin1234/CodSoft/tree/main/Task%202
