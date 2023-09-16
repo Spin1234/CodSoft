@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .invoice {
+            max-width: 800px;
+            margin: 45px auto;
+            padding: 20px;
+            border: 1px solid brown;
+            background-color: #fff;
+        }
+
+        .invoice-header {
+            text-align: center;
+            padding: 20px 0;
+            border-bottom: 1px solid #ccc;
+            background-color: brown;
+            color: #fff;
+        }
+
+        .invoice-content {
+            padding: 20px 0;
+            border-bottom: 1px solid brown;
+            background-image: url("Indian_Railway_Logo.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 20%;
+        }
+
+        .invoice-details {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+
+        .invoice-item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+
+        .invoice-total {
+            margin-top: 20px;
+        }
+
+        /* Media Queries */
+        @media (max-width: 600px) {
+            .invoice {
+                padding: 10px;
+                margin: 20px;
+            }
+            .invoice-header, .invoice-content, .invoice-total {
+                padding: 10px 0;
+                font-size: 0.6rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="invoice">
+        <div class="invoice-header">
+            <h1>INDIAN RAILWAYS</h1>
+        </div>
+        <div class="invoice-content">
+            <div class="invoice-details">
+                <div>Invoice Date: 2023-08-29</div>
+                <div>Due Date: 2023-09-10</div>
+            </div>
+            <div class="invoice-item">
+                <div>Name:</div>
+                <div>$100.00</div>
+            </div>
+            <div class="invoice-item">
+                <div>From:</div>
+                <div>$50.00</div>
+            </div>
+            <div class="invoice-item">
+                <div>To:</div>
+                <div>$50.00</div>
+            </div>
+            <div class="invoice-item">
+                <div>Date:</div>
+                <div>$50.00</div>
+            </div>
+            <div class="invoice-item">
+                <div>Ticket Id:</div>
+                <div>$50.00</div>
+            </div>
+        </div>
+        <div class="invoice-total">
+            <h4 style="text-align: center; opacity: 0.6;">HAPPY JOURNEY</h4>
+            <h3 style="text-align: end;">Fare: 50.00</h3>
+        </div>
+    </div>
+</body>
+</html>
+
